@@ -367,7 +367,7 @@ export default function LaunchRoute() {
             <div className="sc-launch-submit-bar">
               <div>
                 <span>EST. DEPLOY COST</span>
-                <strong>1 SOL</strong>
+                <strong>0 SOL + network fees</strong>
               </div>
               <div className="sc-launch-submit-actions">
                 <button
@@ -446,8 +446,8 @@ export default function LaunchRoute() {
                 <div>
                   <dt>Pool creation</dt>
                   <dd>
-                    <strong>1 SOL</strong>
-                    <span>Paid to Meteora protocol. Curv takes no cut.</span>
+                    <strong>0 SOL</strong>
+                    <span>No pool creation fee. Launching costs only Solana network fees.</span>
                   </dd>
                 </div>
                 <div>
