@@ -353,10 +353,21 @@ export default function LaunchRoute() {
               </label>
             </section>
 
+            <section
+              className="sc-wallet-gate"
+              aria-labelledby="sc-wallet-gate-heading"
+            >
+              <h2 id="sc-wallet-gate-heading">Connect wallet to launch</h2>
+              <p>
+                Everything above is complete without a wallet. Connecting
+                signs nothing by itself — only two signatures happen, both
+                at the final launch step.
+              </p>
+            </section>
             <div className="sc-launch-submit-bar">
               <div>
                 <span>EST. DEPLOY COST</span>
-                <strong>0.02 SOL</strong>
+                <strong>1 SOL</strong>
               </div>
               <div className="sc-launch-submit-actions">
                 <button
@@ -463,6 +474,23 @@ export default function LaunchRoute() {
                   </dd>
                 </div>
               </dl>
+            </section>
+            <section
+              className="sc-mint-address"
+              aria-labelledby="sc-mint-heading"
+            >
+              <div className="sc-live-preview-head">
+                <h2 id="sc-mint-heading">Mint address</h2>
+                <span>Instant</span>
+              </div>
+              <p className="sc-mint-value">
+                <code>7xKp…curv</code>
+                <span className="sc-mint-badge">ends in curv ✓ · pre-ground</span>
+              </p>
+              <p className="sc-mint-note">
+                Your token address is reserved the moment you open this
+                page. No waiting, no extra step.
+              </p>
             </section>
             <section className="sc-builder-chart-card">
               <div className="sc-builder-chart-title">
